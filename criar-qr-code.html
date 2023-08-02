@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUIAAAU5EAAByxAADC9AAA3IcAAJNcAADMFQAAArgAAJksAABBQQAAmR4AAEODAAD4dwAADSAAAFDqAAAXAAAA" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Projeto QR Code</title>
+</head>
+<body>
+    <header class="cabecalho"></header>
+    <main class="estrutura-primaria">
+        <section class="estrutura-secundaria">
+            <h1 class="titulo-principal">CRIADOR DE QR CODE</h1>
+            <div class="estrutura-gerar-qr-code">
+                <textarea class="caixa-link" placeholder="Insira o link aqui" maxlength="256" rows="4"></textarea>
+                <button class="botao-gerar-qr-code" onclick="gerarQrCode()">Gerar QR Code</button>
+            </div>
+            <img class="imagem-qr-code" id="qrCodeImage">
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
